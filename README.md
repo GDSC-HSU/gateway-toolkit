@@ -1,6 +1,6 @@
 # gateway-toolkit
 
-Repository will be took in consideration after (1.0.0) to implement toolkit (support app) matter to enhance developemnt life cycle
+Repository will be took in consideration **after (v1.0.0)** to implement toolkit (support app) matter to enhance developemnt life cycle
 
 #### product support software
 1. **Firmware uploader** (app) program support oragnization able to customise BLE board build flag & manged their board configureation
