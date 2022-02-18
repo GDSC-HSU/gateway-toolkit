@@ -4,6 +4,9 @@ Repository will be took in consideration **after (v1.0.0)** to implement toolkit
 
 #### product support software
 1. **Firmware uploader** (app) program support oragnization able to customise BLE board build flag & manged their board configureation
+research material
+- Embed CLI into GUI (desktop) https://www.youtube.com/watch?v=hPEDjbb_BD0
+- PlatformIO CLI
 
 ```mermaid
 sequenceDiagram
