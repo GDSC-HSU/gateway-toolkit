@@ -23,3 +23,17 @@ sequenceDiagram
 ```
 
 2. BLE Emulator suite via serial comunication & web | app | web interface. Developer able to mock BLE value in custom step with delay(ms) and test(stress) gateway app
+
+
+```mermaid
+sequenceDiagram
+    participant BLE_BOARD
+    participant DEV_PC
+    participant MOBILE
+    Note left of BLE_BOARD: BOARD_WITHOUT SENSOR
+    rect rgb(10, 255, 200)
+    DEV_PC->>BLE_BOARD: serial command
+    Note over BLE_BOARD,MOBILE: Mock sensor with their ble gatt profile
+    BLE_BOARD->>MOBILE: BLE GATT PACKAGES
+    end
+```
